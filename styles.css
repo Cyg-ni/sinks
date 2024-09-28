@@ -40,19 +40,35 @@ ul {
     overflow: hidden;
     text-align: center;
     padding: 20px;
+    
 }
+
+h2 {
+    
+}
+
 
 ul li {
     display: inline;
     padding: 20px 20px;
     text-align: center;
     justify-content: space-between;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 250;
+    font-variation-settings:
+    "wdth" 100;
 }
 
 ul li a:hover {
@@ -78,7 +94,14 @@ ul li a:hover {
 
 .section p {
     font-size: 1rem;
-    color: #666;
+    color: #1f1f1f;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 250;
+    font-variation-settings:
+    "wdth" 100
 }
 
 
