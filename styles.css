@@ -28,17 +28,25 @@ header p {
     font-size: 1.2rem;
 }
 
+#buttons {
+    background-color: #333;
+    height: 50px;
+
+}
 
 ul {
     list-style-type: none;
     background-color: #333;
     overflow: hidden;
     text-align: center;
+    padding: 20px;
 }
 
 ul li {
     display: inline;
-    padding: 15px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    justify-content: space-between;
 }
 
 ul li a {
